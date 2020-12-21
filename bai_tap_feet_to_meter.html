@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>bai tap feet to meter</title>
+</head>
+<body>
+<script>
+    var meter;
+    function feettoMeter() {
+        var nhapvaofeet = prompt("nhap feet: ");
+        meter = parseInt(nhapvaofeet) * 0.305;
+        return meter;
+    }
+    document.writeln("meter: " + feettoMeter() + "<br>");
+    var feet;
+    function metertoFeet() {
+        var nhapvaometer = prompt("nhap meter: ");
+        feet = parseInt(nhapvaometer) * 3.279;
+        return feet;
+    }
+    document.writeln("feet: " + metertoFeet());
+</script>
+
+</body>
+</html>
